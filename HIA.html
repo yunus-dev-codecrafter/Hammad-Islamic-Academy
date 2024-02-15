@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>HammadIslamicAcademy Survey Form</title>
+    <link rel="stylesheet" href="HIA.css" />
+  </head>
+  <!--this is where the head element ends-->
+  <body>
+    <h1>welcome to</h1>
+    <h2>HAMMAD ISLAMIC ACADEMY</h2>
+    <h3>Motto: Education is the best legacy</h3>
+    <p>
+      <a href="www.hammadislamicacademy.edu.com"
+        ><strong>Vist our website</strong></a
+      >
+    </p>
+    <h4>Please, kindly favor us by filling out our survey form</h4>
+    <form action="final project/youtube.html" method="post"></form>
+    <section>
+      <div>
+        <fieldset>
+          <!--this is where the input stuffs starts...-->
+          <legend><strong>1.Personal Information</strong></legend>
+          <label for="name"
+            >Name
+            <input id="name" type="text" placeholder="Enter your name" required
+          /></label>
+          <label for="email"
+            >Email
+            <input
+              id="email"
+              type="email"
+              placeholder="Enter your email"
+              required
+          /></label>
+        <!--first hr-->
+        <hr />
+        <!--end of first hr-->
+        <fieldset>
+          <legend>
+            <strong
+              >2.Parental Satisfaction and School Experience Survey</strong
+            >
+          </legend>
+          <label for="duration"
+            >(a) For how long have you been associated with Hammad Islamic
+            Academy?</label
+          >
+          <select id="duration" required>
+            <option value="">(select one)</option>
+            <option value="less than six months">Less than 6 months</option>
+            <option value="6 months - 1 year">6 months to 1 year</option>
+            <option value="1 - 3 years">1 to 3 years</option>
+            <option value="3 - 5 years">3 to 5 years</option>
+            <option value="more than five years">More than 5 years</option>
+          </select>
+          <section>
+            (b) Would you <em>recomend</em> Hammad Islamic Academy to a friend?
+            <label for="definitely" 
+              ><input
+                type="radio"
+                id="definitely"
+                value="definitely"
+                name="recomend"
+                class="radio"
+                checked
+              />
+              Definitely</label
+            >
+            <label for="maybe">
+              <input
+                type="radio"
+                id="maybe"
+                value="may be"
+                name="recomend"
+                class="radio"
+              />
+              May be</label
+            >
+            <label for="notsure">
+              <input
+                type="radio"
+                id="notsure"
+                value="not sure"
+                name="recomend"
+                class="radio"
+              />
+              Not sure
+            </label>
+          </section>
+          <label for="scale"
+            >(c) On a scale of 1 to 5, how satisfied are you with the overall
+            educational experience your child receives at our school?
+          </label>
+          <select name="scale" id="scale" required>
+            <option value="">(rate)</option>
+            <option value="five">5</option>
+            <option value="four">4</option>
+            <option value="three">3</option>
+            <option value="two">2</option>
+            <option value="one">1</option>
+          </select>
+          <label for="successful?"
+            >(d) What aspects of the school do you feel are most
+            successful?</label
+          >
+          <select name="successful?" id="successful?" required>
+            <option value="">(select one)</option>
+            <option value="communication">Communication</option>
+            <option value="academic-programs">Academic Programs</option>
+            <option value="shool-facilities">Shcool Facilities</option>
+            <option value="safety">Safety and well-being</option>
+            <option value="technology">Technology Integration</option>
+            <option value="none of the above">None of the above</option>
+          </select>
+          <label for=""
+            >(e) In what ways do you prefer to receive communication from the
+            school?</label
+          >
+          <select name="means-of-communication" id="means-of-communication">
+            <option>(choose your prefered method of communication)</option>
+            <option>WhatsApp</option>
+            <option>Telegram</option>
+            <option>SMS</option>
+            <option>Email</option>
+            <option>Parents & Teachers forum</option>
+            <option>Newsletter</option>
+            >
+          </select>
+          <label for="improved?" 
+            >(f) What would you like to see improved? (check all that
+            apply)</label
+          >
+          <label>
+            <input
+              type="checkbox"
+              id="improved?"
+              value="communication"
+              class="checkbox"
+            />
+            Communication</label
+          >
+
+          <label>
+            <input
+              type="checkbox"
+              id="improved?"
+              value="facilities"
+              class="checkbox"
+            />
+            Facilities</label
+          >
+
+          <label>
+            <input
+              type="checkbox"
+              id="improved?"
+              value="curriculum"
+              class="checkbox"
+            />
+            Curriculum</label
+          >
+
+          <label>
+            <input
+              type="checkbox"
+              id="improved?"
+              value="teaching methods"
+              class="checkbox"
+            />
+            Teaching Methods</label
+          >
+          <label>
+            <input
+              type="checkbox"
+              id="improved?"
+              value="safety and security"
+              class="checkbox"
+            />
+            Safety and security</label
+          >
+
+          <label>
+            <input
+              type="checkbox"
+              id="improved?"
+              value="community envolvement"
+              class="checkbox"
+            />
+            Community envolvement</label
+          >
+
+          <label>
+            <input
+              type="checkbox"
+              id="improved?"
+              value="student support"
+              class="checkbox"
+            />
+            Student support</label
+          >
+
+          <label>
+            <input
+              type="checkbox"
+              id="improved?"
+              value="satisfaction"
+              class="checkbox"
+            />
+            I'm satisfied with the school</label
+          >
+        </fieldset>
+        <!--second hr-->
+        <hr />
+        <!--end of second hr-->
+        <label>Please, do you have any suggestions: 
+        <textarea name="" id="textarea" cols="30" rows="10" placeholder="start typing..."></textarea></label>
+      </div>
+    </section>
+      <input type="submit" class="submit" value="Submit">
+  </body>
+</html>
