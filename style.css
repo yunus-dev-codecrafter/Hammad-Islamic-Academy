@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+li {
+    background-color: burlywood;
+    display: inline-block;
+}
+
+ul {
+    background-color: burlywood;
+    display: block;
+    padding: 10px;
+
+}
