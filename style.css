@@ -62,16 +62,39 @@ a {
 }
 
 /*end nav styling*/
+/*main section styling this i where we have the three main sections of the school*/
+main {
+    display: flex;
+}
+
+/*the end - main section styling this i where we have the three main sections of the school*/
 /*conventional section styling*/
 .conventional {
     background-color: lightpink;
     width: 33%;
     padding: 10px;
+    border-radius: 20px;
+    margin-right: 4px;
+
 }
 
 
 .conventional_section_paragraph {
     margin: 0;
+    margin-bottom: 10px;
 }
 
 /*end conventional section styling*/
+/*Tahfeez/Islamiyya Section styling*/
+.tahfeez-islamiyya {
+    background-color: lightgreen;
+    width: 33%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.tahfeez-islamiyya_section_paragraph {
+    margin: 0;
+    margin-bottom: 10px;
+
+    /* the end of isl/tah section styling*/
