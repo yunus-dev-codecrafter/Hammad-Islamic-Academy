@@ -7,11 +7,18 @@ body {
     border: 1px solid black;
 }
 /*
+
 /*header styling*/
 header {
     text-align: center;
-
+    background-image: url(students.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
 }
+
+
 
 .header_photo1 {
     display: flex;
@@ -46,13 +53,21 @@ img {
 li {
     background-color: burlywood;
     display: inline-block;
-    padding: 20px;
+    padding: 10px;
+    transition: 0.5s;
+    margin-right: 100px;
+
+}
+
+li:hover {
+    background-color: rgba(243, 79, 79, 0.37);
+    border-radius: 10px;
 }
 
 ul {
     background-color: burlywood;
     display: block;
-    border-radius: 20px;
+    border-radius: 10px;
     text-align: center;
 }
 
@@ -62,19 +77,56 @@ a {
 }
 
 /*end nav styling*/
+/* proprietors image/space/paragraph styling*/
+.proprietor {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+}
+
+.proprietor_space {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    background-color: rgba(255, 99, 71, 0.336);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.p_name {
+    margin: auto;
+    text-align: center;
+}
+
+.proprietors_speech {
+    margin: 10px;
+    font-size: small;
+    text-align: justify;
+    text-indent: 10px;
+}
+
+.p_speech_heading {
+    margin: 0;
+    text-align: center;
+}
+
+/*the end*/
 /*main section styling this i where we have the three main sections of the school*/
 main {
-    display: flex;
+    display: grid;
+    grid-template-columns: 34% 34% 32%;
+    margin: auto;
 }
 
 /*the end - main section styling this i where we have the three main sections of the school*/
 /*conventional section styling*/
 .conventional {
     background-color: lightpink;
-    width: 33%;
     padding: 10px;
     border-radius: 20px;
     margin-right: 4px;
+    margin-bottom: 4px;
+    text-align: justify;
 
 }
 
@@ -88,13 +140,88 @@ main {
 /*Tahfeez/Islamiyya Section styling*/
 .tahfeez-islamiyya {
     background-color: lightgreen;
-    width: 33%;
     padding: 10px;
     border-radius: 20px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    text-align: justify;
 }
 
 .tahfeez-islamiyya_section_paragraph {
     margin: 0;
     margin-bottom: 10px;
+}
 
-    /* the end of isl/tah section styling*/
+/* the end of isl/tah section styling */
+/* tarteel section styling */
+.tarteel {
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: justify;
+    margin-bottom: 4px;
+}
+
+.tarteel_section_paragraph {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+/*end tarteel section styling*/
+/*female Adults section styling*/
+.female-adults {
+    background-color: lightsalmon;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 4px;
+    text-align: justify;
+}
+
+.female-adults-paragraph {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+/*end female Adults section styling*/
+/*hoidays section styling*/
+.holidays {
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 4px;
+    text-align: justify;
+}
+
+.holidays_paragraph {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+/*the end of holidays section styling*/
+/* button stylling*/
+button {
+    background-color: rgb(136, 136, 236);
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-style: oblique;
+    float: right;
+}
+
+/*end of button styling*/
+/* male adults section styling */
+.male_adults {
+    background-color: lightskyblue;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 4px;
+    text-align: justify;
+}
+
+.male_adults_paragraph {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+/* end male adults sectin styling */
